@@ -1,10 +1,10 @@
 # Hi 👋 I am Linshu Yang.
 
 * 🎈 OIer (🥈 CSP 2019)
-* 🎓 Bachelor of Computer Science, graduated from [🏫 ShanghaiTech](https://www.shanghaitech.edu.cn/) (2021 - )
+* 🎓 Undergraduate student of Computer Science at [🏫 ShanghaiTech](https://www.shanghaitech.edu.cn/) (2021 - )
 * 🌱 Co-founder and main developer of [CourseBench](https://coursebench.geekpie.club)
 * 🔥 Vice President of ShanghaiTech [Geekpie Association](https://www.geekpie.club)
-* 🌟 Research at [HCPS Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/), maintaining the [PyUppaal project](https://github.com/Jack0Chan/pyuppaal/)
+* 🌟 Researcher at [HCPS Lab](https://faculty.sist.shanghaitech.edu.cn/faculty/jiangzhh/team/), maintaining the [PyUppaal project](https://github.com/Jack0Chan/pyuppaal/)
 * ❤️ Love Linux and open source software
 
 [LinkedIn](https://www.linkedin.com/in/linshu-yang-3398a425a/) · [Twitter](https://twitter.com/yanglinshu) · [Email](mailto:nicolasvandarkholme@outlook.com) · [Telegram](https://t.me/Faaris_Mohammed)
