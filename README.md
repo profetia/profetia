@@ -9,7 +9,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/linshu-yang-3398a425a/) · [Twitter](https://twitter.com/yanglinshu) · [Email](mailto:nicolasvandarkholme@outlook.com) · [Telegram](https://t.me/Faaris_Mohammed)
 
-![Skills](https://skillicons.dev/icons?i=cloudflare,kubernetes,github,c,cpp,rust,html,js,ts,css,sass,py,go,matlab,bash,md,regex,docker,git,mongodb,postgres,sqlite,redis,linux,nginx,blender,pytorch,django,fastapi,prisma,vscode,vercel,nodejs,express,d3,electron,tailwind,webpack,vite,react,svelte,vue,nuxtjs,wasm)
+![Skills](https://skillicons.dev/icons?i=cloudflare,kubernetes,github,c,cpp,rust,html,js,ts,css,sass,py,go,matlab,bash,md,regex,docker,git,mongodb,postgres,sqlite,redis,linux,nginx,blender,pytorch,django,fastapi,prisma,vscode,vercel,nodejs,nestjs,d3,electron,tailwind,webpack,vite,react,svelte,vue,nuxtjs,wasm)
 
 <a href="https://github-readme-stats-one-bice.vercel.app/api?username=yanglinshu&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-light-mode-only" target="_blank">
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=yanglinshu&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-light-mode-only" alt="Linshu Yang's GitHub stats" height="185px">
