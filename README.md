@@ -1,6 +1,6 @@
 # Hi 👋 I am Linshu Yang.
 
-* 🎈 OIer (🥈 CSP 2019)
+* 🎈 OIer (🥈 ICPC 2023 Yinchuan)
 * 🎓 Undergraduate student of Computer Science at [🏫 ShanghaiTech](https://www.shanghaitech.edu.cn/) (2021 - )
 * 🌱 Co-founder and main developer of [CourseBench](https://coursebench.geekpie.club)
 * 🔥 Vice President of ShanghaiTech [Geekpie Association](https://www.geekpie.club)
@@ -14,13 +14,13 @@
 <a href="https://github-readme-stats-one-bice.vercel.app/api?username=yanglinshu&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-light-mode-only" target="_blank">
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=yanglinshu&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-light-mode-only" alt="Linshu Yang's GitHub stats" height="185px">
 </a>
-<a href="https://sexomer.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-light-mode-only">
-  <img src="https://sexomer.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-light-mode-only" alt="Top Langs" height="185px">
+<a href="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-light-mode-only">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-light-mode-only" alt="Top Langs" height="185px">
 </a>
 
 <a href="https://github-readme-stats-one-bice.vercel.app/api?username=yanglinshu&theme=transparent&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-dark-mode-only" target="_blank">
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=yanglinshu&theme=transparent&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-dark-mode-only" alt="Linshu Yang's GitHub stats" height="185px">
 </a>
-<a href="https://sexomer.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-dark-mode-only">
-  <img src="https://sexomer.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-dark-mode-only" alt="Top Langs" height="185px">
+<a href="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-dark-mode-only">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=yanglinshu&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-dark-mode-only" alt="Top Langs" height="185px">
 </a>
