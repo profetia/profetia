@@ -15,16 +15,16 @@ I'm Nicolas "Mousa" Young
 ![Skills](https://skillicons.dev/icons?i=cloudflare,kubernetes,github,c,cpp,rust,ts,py,go,matlab,bash,md,regex,docker,git,mongodb,postgres,sqlite,redis,linux,nginx,blender,pytorch,django,fastapi,prisma,vscode,vercel,nodejs,nestjs,d3,electron,html,js,css,sass,tailwind,webpack,vite,react,svelte,vue,nuxtjs,wasm)
 
 
-<a href="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-light-mode-only" target="_blank">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-light-mode-only" alt="Linshu Yang's GitHub stats" height="185px">
+<a href="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true&card_width=432#gh-light-mode-only" target="_blank">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true&card_width=432#gh-light-mode-only" alt="Nicolas Yang's GitHub stats" height="185px">
 </a>
-<a href="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-light-mode-only">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-light-mode-only" alt="Top Langs" height="185px">
+<a href="https://github-readme-stats-seven-rho-46.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css,perl,javascript,cmake,makefile&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true&size_weight=0.5&count_weight=0.5&card_width=432#gh-light-mode-only">
+  <img src="https://github-readme-stats-seven-rho-46.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css,perl,javascript,cmake,makefile&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true&size_weight=0.5&count_weight=0.5&card_width=432#gh-light-mode-only" alt="Top Langs" height="185px">
 </a>
 
-<a href="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&theme=transparent&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-dark-mode-only" target="_blank">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&theme=transparent&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true#gh-dark-mode-only" alt="Linshu Yang's GitHub stats" height="185px">
+<a href="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&theme=transparent&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true&card_width=432#gh-dark-mode-only" target="_blank">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=mousany&theme=transparent&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&count_private=true&card_width=432#gh-dark-mode-only" alt="Nicolas Yang's GitHub stats" height="185px">
 </a>
-<a href="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-dark-mode-only">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true#gh-dark-mode-only" alt="Top Langs" height="185px">
+<a href="https://github-readme-stats-seven-rho-46.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css,perl,javascript,cmake,makefile&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true&size_weight=0.5&count_weight=0.5&card_width=432#gh-dark-mode-only">
+  <img src="https://github-readme-stats-seven-rho-46.vercel.app/api/top-langs/?username=mousany&theme=transparent&layout=compact&langs_count=8&hide=html,css,perl,javascript,cmake,makefile&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&include_orgs=true&size_weight=0.5&count_weight=0.5&card_width=432#gh-dark-mode-only" alt="Top Langs" height="185px">
 </a>
