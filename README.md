@@ -8,7 +8,7 @@
 
 <br>
 
-![Skills](https://skillicons.dev/icons?i=py,c,cpp,rust,go,ts,js,bash,latex,regex,matlab,linux,pytorch,cmake,docker,kubernetes,git,vscode,blender,postgres,sqlite,prisma,github,nodejs,fastapi,nestjs,d3,react,tailwind,vue&theme=light)
+![Skills](https://skillicons.dev/icons?i=py,c,cpp,rust,go,ts,js,bash,latex,regex,matlab,linux,pytorch,cmake,docker,kubernetes,git,vscode,blender,postgres,sqlite,prisma,github,nodejs,fastapi,nestjs,d3,react,tailwind,vue)
 
 <br>
 
