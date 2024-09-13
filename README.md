@@ -1,10 +1,10 @@
 ## I'm currently...
 
 * 🎓 Pursuing a bachelor's degree in Computer Science at ShanghaiTech University.
+* 🌎 Working as a research intern at the Max Planck Institute for Informatics.
 * 🌱 Engaged in exploring the fields of computer and networking systems.
 * 🎈 An avid participant in programming contests, with a background in OI and HPC.
 * 🛠️ Expanding my knowledge in kernel development, with hands-on experience in eBPF and kernel modules.
-* 🐧 A Linux enthusiast, diving into advanced features and customization.
 * 🦀 Passionate about Rust and excited to build safe, high performance software.
 
 <br>
