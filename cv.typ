@@ -96,8 +96,8 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 == Work Experience
 #chiline()
 
-*#link("https://www.ubiquant.com/")[Ubiquant]*, HPC System Group #h(1fr) Since 2025/04\
-HPC System Engineer Intern #h(1fr) Shanghai, China
+*Ubiquant*, HPC Infra Group #h(1fr) 2025/04 -- 2025/08 \
+HPC Infra Engineer Intern #h(1fr) Shanghai, China
 - Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
 - Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; achieved up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models.
 - Prototyped a high-performance, multi-level distributed key-value store named Simm; delivered up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
@@ -109,7 +109,7 @@ System Software Engineer Intern #h(1fr) Shanghai, China
 - Refactored existing sandbox software by decoupling and pipelining data collection and analysis, improving overall throughput by 30%.
 // - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
-*#link("https://www.deemos.com/")[Deemos Technology]* #h(1fr) 2023/01 -- 2023/07\
+*Deemos Technology* #h(1fr) 2023/01 -- 2023/07\
 Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 - Worked on a full-stack web application for ChatAvatar, a text-to-3D model. Developed interactive frontend and integrated backend to support model generation, user interaction, and result visualization.
 // - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
@@ -183,7 +183,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Outstanding Student (Top 3%-7%), ShanghaiTech University #h(1fr) 2022/10
-- Level 6 (= Second Class Prize in former NOIP), 1st place in award group, 2019 CCF CSP-S #h(1fr) 2019/12
+- Level 6 (= Second Class Prize in former NOIP), 1st place in the award group, 2019 CCF CSP-S #h(1fr) 2019/12
 
 == Skills
 #chiline()
