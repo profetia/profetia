@@ -32,17 +32,23 @@
                 ${lib.getExe typstyle} -i ./*.typ
                 ${lib.getExe nixfmt-rfc-style} -s flake.nix
               '';
+              description = ''Format all typst source files and flake.nix'';
             };
             build = {
               exec = "${lib.getExe typst} c ./*.typ";
+              description = ''Compile all typst source files to PDF'';
             };
             clean = {
               exec = ''rm -rf ./*.pdf'';
+              description = ''Remove all generated PDF files'';
             };
           };
           devShells.default = pkgs.mkShell {
             # cf. https://haskell.flake.page/devshell#composing-devshells
             inputsFrom = [ config.mission-control.devShell ];
+            shellHook = ''
+              unset SOURCE_DATE_EPOCH
+            '';
           };
         };
     };

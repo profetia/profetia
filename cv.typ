@@ -24,6 +24,7 @@
   place(
     bottom,
     [
+      #text(link("https://mpi.run/files/cv.pdf")[mpi.run/cv], fill: color.gray)
       #h(1fr)
       #text("Last updated in " + date, fill: color.gray)
     ],
@@ -32,22 +33,21 @@
 
 = Linshu Yang
 
-yanglsh\@shanghaitech.edu.cn
+linshuy\@illinois.edu
 | #link("https://github.com/profetia")[github.com/profetia]
+| #link("https://mpi.run")[mpi.run]
 | #link("https://www.linkedin.com/in/ly4ng")[linkedin.com/in/ly4ng]
-// #h(1fr) Last Updated: #datetime.today().display("[year]/[month]")
 
 == Education
 #chiline()
 
-*University of Illinois at Urbana-Champaign* #h(1fr) Since 2025/09 \
+*University of Illinois at Urbana-Champaign* #h(1fr) Since 2025/08 \
 Master of Computer Science #h(1fr) Champaign, IL, USA \
 *ShanghaiTech University* #h(1fr) 2021/09 -- 2025/07 \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
 China \
 // - Overall GPA 3.72/4.0, Rank 25/178 (Top 15%), Major GPA 3.83/4.0
-- A/A+ Courses: Operating Systems/* (A+) */, Computer Networks/* (A+) */, Computer Aided Verification/* (A+) */, Software Engineering/* (A) */, \
-  #h(69pt) Probability and Statistics/* (A) */, Deep Learning/* (A+) */, and 17 others.
+- A/A+ Courses: Operating Systems/* (A+) */, Computer Networks/* (A+) */, Computer Aided Verification/* (A+) */, Deep Learning/* (A+) */, and 19 others.
 
 == Publications
 #chiline()
@@ -55,28 +55,25 @@ China \
 // - *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) \
 //   _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) \
 //   *Under Review in _IEEE International Symposium on High-Performance Computer Architecture 2025_*
-- *pyUPPAAL: A Python Package for Risk Analysis of CPS* #link(
-    "https://dl.acm.org/doi/abs/10.1145/3576841.3589611",
-  )[doi.org/10.1145/3576841.3589611] #h(1fr) \
+- *pyUPPAAL: A Python Package for Risk Analysis of CPS* #link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[doi.org/10.1145/3576841.3589611] #h(1fr) \
   _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) \
   *Published in _ACM/IEEE International Conference on Cyber-Physical Systems 2023_*
 
 == Research Experience
 #chiline()
 
-*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/09
+*Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
 -- 2024/12\
-Research Intern, Advised by *Dr. Yiting Xia* #h(1fr) Saarbrücken, Germany\
-- * OpenOptics: An Open Framework for Optical Data Center Networks*
-  - OpenOptics is a general-purpose, switch-centric framework as the OpenFlow equivalent for optical DCNs, aiming to decouple software solutions from underlying optical architectures.
-  // - Modified `libvma` to implement virtual output queues and perform demand estimation on elephant flows.
-  - Extended OpenOptics to support traffic-aware scheduling algorithms in optical DCNs and conducted performance evaluation and comparative analysis within the framework.
-*ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 --
+Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
+- *OpenOptics: An Open Research Framework for Optical Data Center Networks* #link("https://github.com/mpi-ncs/openoptics/")[github.com/mpi-ncs/openoptics]
+  - OpenOptics is a general framework for realizing different optical data center network architectures in a plug-and-play manner -- you can get started with just \~10 lines of Python.
+  - Prototyped the traffic-aware workflow of OpenOptics, and built the corresponding Tofino-based backend. Implemented 4 types of traffic-aware scheduling algorithms in the framework for \<50 lines of Python.
+*ShanghaiTech University*, Wireless and Mobile System Lab #h(1fr) 2023/12 --
 2024/08\
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
 - *Understanding Hybrid Scheduling in Asymmetric Processors*
-  - Conducted intensive benchmarks and analyzed performance issues of Linux's Completely Fair Scheduler (CFS) on Asymmetric Multi-Processor (AMP) platforms.
-  - Identified the performance bottlenecks of CFS when scheduling workloads under Kernel-based Virtual Machine (KVM), and proposed patches to improve its scheduling decisions.
+  // - Conducted intensive benchmarks and analyzed performance issues of Linux's Completely Fair Scheduler (CFS) on Asymmetric Multi-Processor (AMP) platforms.
+  - Identified the performance bottlenecks of CFS when scheduling workloads under Kernel-based Virtual Machine (KVM), and proposed patches that improve its scheduling efficiency by 5%.
 // TODO: Replace with an official title if needed
 // - *Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
 //   - Evaluated the robustness of existing attack methods on newer LIDAR models,
@@ -89,27 +86,30 @@ Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
 //     embedded systems by emulating the hardware PTP clock with specific counters.
 //   - Implemented a synchronized sound recording system across 20 devices to
 //     demonstrate the method's capabilities.
-*ShanghaiTech University, Human-Cyber-Physical System Lab* #h(1fr) 2022/07 --
+*ShanghaiTech University*, Human-Cyber-Physical System Lab #h(1fr) 2022/07 --
 2023/06\
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
-- *Model-Checking-Based Diagnosis Assistance for Cardiac Ablation*
-  - Designed and developed a Python toolkit for UPPAAL, a model-checking tool, enabling programmatic access and automation. Implemented commonly used algorithms on top of the toolkit to support broader verification tasks.
-  - Implemented a model-checking-based diagnosis program for cardiac ablation using the toolkit, and optimized it to process cardiac electrical signals in real time.
+- *Model-Checking-Based Diagnosis Assistance for Cardiac Ablation* #link("https://github.com/Jack0Chan/pyuppaal")[github.com/Jack0Chan/pyuppaal]
+  - Worked on pyUPPAAL, a Python toolkit for UPPAAL, providing programmatic access to the model-checking tool and enabling automation of verification tasks.
+  - Implemented a model-checking-based diagnosis program for cardiac ablation surgeries using the toolkit, and optimized it to process cardiac signals in real-time.
 
 == Work Experience
 #chiline()
 
-*Ubiquant, HPC System Group* #h(1fr) Since 2025/04\
+*#link("https://www.ubiquant.com/")[Ubiquant]*, HPC System Group #h(1fr) Since 2025/04\
 HPC System Engineer Intern #h(1fr) Shanghai, China
-- Reproduced and tuned DeepSeek’s 3FS on Ubiquant’s HPC cluster, achieving over 90% Infiniband utilization on 8 nodes.
+- Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
+- Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; achieved up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models.
+- Prototyped a high-performance, multi-level distributed key-value store named Simm; delivered up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
+- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; achieved up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
 
-*Tencent, Keen Security Lab* #h(1fr) 2024/04 -- 2024/07\
-System Software Engineer Intern, #h(1fr) Shanghai, China
-- Migrated the Linux kernel to the latest version for Tencent Keen's Linux sandbox. Designed and developed fine-grained probing tools using eBPF and kernel modules to capture and analyze malware during runtime.
+*Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
+System Software Engineer Intern #h(1fr) Shanghai, China
+- Developed a fine-grained probing tool using eBPF and kernel modules for the Linux sandbox to capture and analyze malware during runtime; delivered comparative accuracy to competitors.
 - Refactored existing sandbox software by decoupling and pipelining data collection and analysis, improving overall throughput by 30%.
 // - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
-*Deemos Technology* #h(1fr) 2023/01 -- 2023/07\
+*#link("https://www.deemos.com/")[Deemos Technology]* #h(1fr) 2023/01 -- 2023/07\
 Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 - Worked on a full-stack web application for ChatAvatar, a text-to-3D model. Developed interactive frontend and integrated backend to support model generation, user interaction, and result visualization.
 // - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
@@ -118,18 +118,18 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 #chiline()
 
 *Open Source Contributions*
-- *Contributor, The Rust Programming Language* #h(1fr) Since 2024/12
-  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 40+ merged commits and reduced 200+ false positives in regression tests.
+- *Regular Contributor, The Rust Programming Language* #h(1fr) Since 2024/12
+  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 100+ merged commits and reduced 750+ false positives and negatives in regression tests.
 
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
-  - Responsible for Coding Challenge. Implemented GPU offloading and code optimization for Microphysics, a climate simulation application, achieving strong scaling on Intel Xeon CPU and 200x speedup on NVIDIA A100 GPU.
-  - Advised Geekpie HPC team on profiling and code optimization, reducing MPI communication time by 50%.
+  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this Challenge; achieved strong scaling within one CPU node and 200× speedup in one A100.
+  - Advised the team on MPI profiling and optimization; reduced communication time by 50%.
 
 *Student Organizations*
 - *Vice President, Geekpie Association* #h(1fr) 2022/08 -- 2023/07
   - Developed the frontend of Coursebench, a popular course-rating website for ShanghaiTech University.
-  - Organized events including Geekpie Games and Geekpie Linux Seminar, with over 1k students participated.
+  - Organized events including Geekpie Games and Geekpie Linux Seminar, with 1k+ students participated.
 
 // == Projects
 // #chiline()
@@ -177,19 +177,20 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 == Awards
 #chiline()
 
-- Second Prize (Rank 6/447; with Huawei Kunpeng Special Award), 2025 PKU HPCGame #h(1fr) 2025/01
-- Finalist (Rank 9/29; 3/29 for Coding Challenge, OpenMP Track), ISC'24 Student Cluster Competition #h(1fr) 2024/04
+- Second Class Prize (Rank 6/447), with Huawei Kunpeng Special Award, 2025 PKU HPCGame #h(1fr) 2025/01
+- Finalist (Rank 9/29), 3rd place for Coding Challenge (OpenMP Track), ISC'24 Student Cluster Competition #h(1fr) 2024/04
+- Second Class Prize (Rank 27/300+), ASC'24 Student Supercomputer Challenge #h(1fr) 2024/02
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Outstanding Student (Top 3%-7%), ShanghaiTech University #h(1fr) 2022/10
-- Level 6, 2019 CCF Certified Software Professional Senior (CSP-S; formerly NOIP) #h(1fr) 2019/12
+- Level 6 (= Second Class Prize in former NOIP), 1st place in award group, 2019 CCF CSP-S #h(1fr) 2019/12
 
 == Skills
 #chiline()
 *Working Languages*: Chinese (Native), English (Advanced, TOEFL 112:
 R30/L30/S24/W28)\
-*Programming Languages*: Python, C, C++, Rust, Golang, Typescript, Shell, SQL\
-*Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, PyTorch, UPPAAL, Dafny, Blender\
-*DevOps Technologies*: Docker, Kubernetes, Gitlab, Postgres, Cloudflare Worker
+*Programming Languages*: Python, Modern C/C++, Rust, Golang, Typescript, Shell, SQL\
+*Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, vLLM, LMCache, Megatron-LM, UPPAAL\
+*DevOps Technologies*: Docker, Singularity, Kubernetes, Slurm, Gitlab, Postgres, Cloudflare Worker
 
 #last_updated(datetime.today().display("[month repr:long], [year]"))
