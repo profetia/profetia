@@ -35,7 +35,11 @@
               description = ''Format all typst source files and flake.nix'';
             };
             build = {
-              exec = "${lib.getExe typst} c ./*.typ";
+              exec = ''
+                for f in ./*.typ; do
+                  ${lib.getExe typst} c "$f"
+                done
+              '';
               description = ''Compile all typst source files to PDF'';
             };
             clean = {

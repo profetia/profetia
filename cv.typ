@@ -33,7 +33,7 @@
 
 = Linshu Yang
 
-linshuy\@illinois.edu
+linshuy2\@illinois.edu
 | #link("https://github.com/profetia")[github.com/profetia]
 | #link("https://mpi.run")[mpi.run]
 | #link("https://www.linkedin.com/in/ly4ng")[linkedin.com/in/ly4ng]
@@ -41,7 +41,7 @@ linshuy\@illinois.edu
 == Education
 #chiline()
 
-*University of Illinois at Urbana-Champaign* #h(1fr) Since 2025/08 \
+*University of Illinois Urbana-Champaign* #h(1fr) Since 2025/08 \
 Master of Computer Science #h(1fr) Champaign, IL, USA \
 *ShanghaiTech University* #h(1fr) 2021/09 -- 2025/07 \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
@@ -62,9 +62,12 @@ China \
 == Research Experience
 #chiline()
 
+*University of Illinois Urbana-Champaign*, Supercomputing System AI Lab #h(1fr) Since 2025/08\
+Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
+
 *Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
 -- 2024/12\
-Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
+Research Assistant, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
 - *OpenOptics: An Open Research Framework for Optical Data Center Networks* #link("https://github.com/mpi-ncs/openoptics/")[github.com/mpi-ncs/openoptics]
   - OpenOptics is a general framework for realizing different optical data center network architectures in a plug-and-play manner -- you can get started with just \~10 lines of Python.
   - Prototyped the traffic-aware workflow of OpenOptics, and built the corresponding Tofino-based backend. Implemented 4 types of traffic-aware scheduling algorithms in the framework for \<50 lines of Python.
@@ -119,7 +122,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 
 *Open Source Contributions*
 - *Regular Contributor, The Rust Programming Language* #h(1fr) Since 2024/12
-  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 100+ merged commits and reduced 750+ false positives and negatives in regression tests.
+  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 200+ merged commits and reduced 800+ false positives and negatives in regression tests.
 
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
@@ -178,7 +181,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 #chiline()
 
 - Second Class Prize (Rank 6/447), with Huawei Kunpeng Special Award, 2025 PKU HPCGame #h(1fr) 2025/01
-- Finalist (Rank 9/29), 3rd place for Coding Challenge (OpenMP Track), ISC'24 Student Cluster Competition #h(1fr) 2024/04
+- Individual 3rd place for Coding Challenge (OpenMP Track), Rank 9/29, ISC'24 Student Cluster Competition #h(1fr) 2024/04
 - Second Class Prize (Rank 27/300+), ASC'24 Student Supercomputer Challenge #h(1fr) 2024/02
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
@@ -190,7 +193,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 *Working Languages*: Chinese (Native), English (Advanced, TOEFL 112:
 R30/L30/S24/W28)\
 *Programming Languages*: Python, Modern C/C++, Rust, Golang, Typescript, Shell, SQL\
-*Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, vLLM, LMCache, Megatron-LM, UPPAAL\
+*Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, LMCache, Megatron-LM, DeepSpeed, UPPAAL\
 *DevOps Technologies*: Docker, Singularity, Kubernetes, Slurm, Gitlab, Postgres, Cloudflare Worker
 
 #last_updated(datetime.today().display("[month repr:long], [year]"))
