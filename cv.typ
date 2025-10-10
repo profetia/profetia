@@ -99,8 +99,8 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 == Work Experience
 #chiline()
 
-*Ubiquant*, HPC Infra Group #h(1fr) 2025/04 -- 2025/08 \
-HPC Infra Engineer Intern #h(1fr) Shanghai, China
+*Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
+Performance Engineer Intern #h(1fr) Shanghai, China
 - Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
 - Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; achieved up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models.
 - Prototyped a high-performance, multi-level distributed key-value store named Simm; delivered up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
@@ -121,7 +121,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 #chiline()
 
 *Open Source Contributions*
-- *Regular Contributor, The Rust Programming Language* #h(1fr) Since 2024/12
+- *Member, The Rust Programming Language* #h(1fr) Since 2024/12
   - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 200+ merged commits and reduced 800+ false positives and negatives in regression tests.
 
 *HPC Competitions*
