@@ -46,7 +46,7 @@ Master of Computer Science #h(1fr) Champaign, IL, USA \
 *ShanghaiTech University* #h(1fr) 2021/09 -- 2025/07 \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
 China \
-// - Overall GPA 3.72/4.0, Rank 25/178 (Top 15%), Major GPA 3.83/4.0
+- Concentration: Software and Systems, Major GPA 3.81/4.0, Overall GPA 3.60/4.0
 - A/A+ Courses: Operating Systems/* (A+) */, Computer Networks/* (A+) */, Computer Aided Verification/* (A+) */, Deep Learning/* (A+) */, and 19 others.
 
 == Publications
@@ -100,7 +100,7 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 #chiline()
 
 *Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
-Performance Engineer Intern #h(1fr) Shanghai, China
+HPC System Engineer Intern #h(1fr) Shanghai, China
 - Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
 - Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; achieved up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models.
 - Prototyped a high-performance, multi-level distributed key-value store named Simm; delivered up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
