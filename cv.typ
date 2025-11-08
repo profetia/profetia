@@ -102,9 +102,9 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 *Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
 HPC System Engineer Intern #h(1fr) Shanghai, China
 - Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
-- Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; achieved up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models.
-- Prototyped a high-performance, multi-level distributed key-value store named Simm; delivered up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
-- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; achieved up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
+- Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; delivered up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models under an urgent 10-day deadline.
+- Prototyped a high-performance, multi-level distributed key-value store named Simm; achieved up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
+- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; delivered up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
 
 *Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
 System Software Engineer Intern #h(1fr) Shanghai, China
