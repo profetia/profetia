@@ -43,6 +43,7 @@ linshuy2\@illinois.edu
 
 *University of Illinois Urbana-Champaign* #h(1fr) Since 2025/08 \
 Master of Computer Science #h(1fr) Champaign, IL, USA \
+- GPA: 4.0/4.0, Courses: Programming Languages & Compilers, Machine Learning Systems
 *ShanghaiTech University* #h(1fr) 2021/09 -- 2025/07 \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
 China \
@@ -122,7 +123,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 
 *Open Source Contributions*
 - *Member, The Rust Programming Language* #h(1fr) Since 2024/12
-  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 200+ merged commits and reduced 800+ false positives and negatives in regression tests.
+  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 200+ merged commits and reduced 1k+ false positives and negatives in regression tests.
 
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
@@ -192,7 +193,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 #chiline()
 *Working Languages*: Chinese (Native), English (Advanced, TOEFL 112:
 R30/L30/S24/W28)\
-*Programming Languages*: Python, Modern C/C++, Rust, Golang, Typescript, Shell, SQL\
+*Programming Languages*: Python, Modern C/C++, Rust, Golang, Typescript, Shell, P4, SQL\
 *Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, LMCache, Megatron-LM, DeepSpeed, UPPAAL\
 *DevOps Technologies*: Docker, Singularity, Kubernetes, Slurm, Gitlab, Postgres, Cloudflare Worker
 
