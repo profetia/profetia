@@ -26,7 +26,7 @@
     [
       #text(link("https://mpi.run/files/cv.pdf")[mpi.run/cv], fill: color.gray)
       #h(1fr)
-      #text("Last updated in " + date, fill: color.gray)
+      #text("Last Updated: " + date, fill: color.gray)
     ],
   )
 }
@@ -43,7 +43,7 @@ linshuy2\@illinois.edu
 
 *University of Illinois Urbana-Champaign* #h(1fr) Since 2025/08 \
 Master of Computer Science #h(1fr) Champaign, IL, USA \
-- GPA: 4.0/4.0, Courses: Programming Languages & Compilers, Machine Learning Systems
+- GPA: 4.0/4.0, Courses: Compiler Design, Machine Learning Systems, Parallel Computer Architecture, etc.
 *ShanghaiTech University* #h(1fr) 2021/09 -- 2025/07 \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
 China \
@@ -65,6 +65,11 @@ China \
 
 *University of Illinois Urbana-Champaign*, Supercomputing System AI Lab #h(1fr) Since 2025/08\
 Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
+- *When Topology Matters: Trillion-Parameter LLM Training via
+  Topology-Aligned 3D Parallelism on Emerging AI Chips*
+  - Provided the first systematic characterization of dense and MoE training on AWS Trainium chips, and analyzed the compute performance, memory footprint, and collective communication behavior across model scales.
+  - Implemented a topology-aligned planner to solve the 3D parallel groups placement constraints imposed by Trainium's 2D torus topology, enabling previously unsupported parallel configurations (>50% of the solution space) to run with optimal NIC utilization.
+  - Identified PP-first as the optimal scale-out strategy for MoE training on Trainium. Together with the planner, demonstrated scalable training of up to 1T-parameter models with 2048 chips, achieving up to 3.5× speedup over the baseline.
 
 *Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
 -- 2024/12\
@@ -103,19 +108,19 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 *Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
 HPC System Engineer Intern #h(1fr) Shanghai, China
 - Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
-- Implemented file write for Ubiloader, Ubiquant's in-house distributed data loading acceleration middleware; delivered up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models under an urgent 10-day deadline.
-- Prototyped a high-performance, multi-level distributed key-value store named Simm; achieved up to 8× lower latency and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
+- Implemented file write for Ubiloader, the in-house data loading middleware; delivered up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models under a tight 10-day deadline; deployed to the internal k8s cluster with 1024 H800 GPUs.
+- Prototyped a high-performance, multi-level distributed key-value store named Simm; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
 - Integrated Simm with vLLM using LMCache as a storage backend for KV cache; delivered up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
 
 *Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
 System Software Engineer Intern #h(1fr) Shanghai, China
 - Developed a fine-grained probing tool using eBPF and kernel modules for the Linux sandbox to capture and analyze malware during runtime; delivered comparative accuracy to competitors.
-- Refactored existing sandbox software by decoupling and pipelining data collection and analysis, improving overall throughput by 30%.
+- Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput overall and is deployed to Tencent's internal malware analysis platforms with 50+ nodes.
 // - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
 *Deemos Technology* #h(1fr) 2023/01 -- 2023/07\
 Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
-- Worked on a full-stack web application for ChatAvatar, a text-to-3D model. Developed interactive frontend and integrated backend to support model generation, user interaction, and result visualization.
+- Developed a full-stack web application for ChatAvatar, a text-to-3D model. Developed interactive frontend and integrated backend to support model generation, user interaction, and result visualization.
 // - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
 
 == Activities
@@ -123,7 +128,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 
 *Open Source Contributions*
 - *Member, The Rust Programming Language* #h(1fr) Since 2024/12
-  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 200+ merged commits and reduced 1k+ false positives and negatives in regression tests.
+  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 250+ merged commits and reduced 1k+ false positives and negatives in regression tests.
 
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
@@ -172,11 +177,11 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 // - Achieved a 20x speed increase over baseline on Intel Xeon E5-2698 v4 processor
 //   (20 cores).
 
-== Services
-#chiline()
+// == Services
+// #chiline()
 
-- Teaching Assistant, CS100: Computer Programming, ShanghaiTech University #h(1fr) Spring 2023
-- Teaching Assistant, CS132: Software Engineering, ShanghaiTech University #h(1fr) Spring 2023
+// - Teaching Assistant, CS100: Computer Programming, ShanghaiTech University #h(1fr) Spring 2023
+// - Teaching Assistant, CS132: Software Engineering, ShanghaiTech University #h(1fr) Spring 2023
 
 == Awards
 #chiline()
@@ -184,7 +189,7 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 - Second Class Prize (Rank 6/447), with Huawei Kunpeng Special Award, 2025 PKU HPCGame #h(1fr) 2025/01
 - Individual 3rd place for Coding Challenge (OpenMP Track), Rank 9/29, ISC'24 Student Cluster Competition #h(1fr) 2024/04
 - Second Class Prize (Rank 27/300+), ASC'24 Student Supercomputer Challenge #h(1fr) 2024/02
-- Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
+// - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Outstanding Student (Top 3%-7%), ShanghaiTech University #h(1fr) 2022/10
 - Level 6 (= Second Class Prize in former NOIP), 1st place in the award group, 2019 CCF CSP-S #h(1fr) 2019/12
@@ -197,4 +202,4 @@ R30/L30/S24/W28)\
 *Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, LMCache, Megatron-LM, DeepSpeed, UPPAAL\
 *DevOps Technologies*: Docker, Singularity, Kubernetes, Slurm, Gitlab, Postgres, Cloudflare Worker
 
-#last_updated(datetime.today().display("[month repr:long], [year]"))
+#last_updated(datetime.today().display("[year]/[month]"))
