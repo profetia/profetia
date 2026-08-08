@@ -3,9 +3,9 @@
 
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
-// #set text(
-//   size: 12pt,
-// )
+#set text(
+  size: 10pt,
+)
 
 // Feel free to change the margin below to best fit your own CV
 #set page(margin: (x: 0.9cm, y: 1.3cm))
@@ -41,35 +41,56 @@ linshuy2\@illinois.edu
 == Education
 #chiline()
 
-*University of Illinois Urbana-Champaign* #h(1fr) Since 2025/08 \
+*University of Illinois Urbana-Champaign* #h(1fr) 2025/08 - 2026/12 (Expected) \
 Master of Computer Science #h(1fr) Champaign, IL, USA \
-- GPA: 4.0/4.0, Courses: Compiler Design, Machine Learning Systems, Parallel Computer Architecture, etc.
+- GPA: 3.94/4.0, Courses: Compiler Design, Machine Learning Systems, Parallel Computer Architecture, Advanced Performance Engineering, etc.
+#v(-4pt)
+
 *ShanghaiTech University* #h(1fr) 2021/09 -- 2025/07 \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
 China \
-- Concentration: Software and Systems, Major GPA 3.81/4.0, Overall GPA 3.60/4.0
+- Concentration: Software and Systems, Major GPA 3.81/4.0, Overall GPA 3.6/4.0
 - A/A+ Courses: Operating Systems/* (A+) */, Computer Networks/* (A+) */, Computer Aided Verification/* (A+) */, Deep Learning/* (A+) */, and 19 others.
+#v(-4pt)
 
-== Publications
+== Work Experience
 #chiline()
 
-// - *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) \
-//   _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) \
-//   *Under Review in _IEEE International Symposium on High-Performance Computer Architecture 2025_*
-- *pyUPPAAL: A Python Package for Risk Analysis of CPS* #link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[doi.org/10.1145/3576841.3589611] #h(1fr) \
-  _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) \
-  *Published in _ACM/IEEE International Conference on Cyber-Physical Systems 2023_*
+*Jump Trading* #h(1fr) 2026/06 -- 2026/09 \
+Software Engineer Intern #h(1fr) Shanghai, China
+#v(-4pt)
+
+*Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
+HPC System Engineer Intern #h(1fr) Shanghai, China
+- Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
+- Implemented file write for Ubiloader, the in-house data loading middleware; delivered up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models under a tight 10-day deadline; deployed to the internal k8s cluster with 1K H800 GPUs.
+- Prototyped a high-performance, multi-level distributed key-value store named Simm; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
+- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; delivered up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
+#v(-4pt)
+
+*Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
+System Software Engineer Intern #h(1fr) Shanghai, China
+- Developed a fine-grained probing tool using eBPF and kernel modules for the Linux sandbox to capture and analyze malware during runtime; delivered comparative accuracy to competitors.
+- Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput overall and is deployed to Tencent's internal malware analysis platforms with 50+ nodes.
+// - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
+#v(-4pt)
+
+*Deemos Technology* #h(1fr) 2023/01 -- 2023/07\
+Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
+- Developed a full-stack web application for ChatAvatar, a text-to-3D model. Developed interactive frontend and integrated backend to support model generation, user interaction, and result visualization.
+// - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
+#v(-4pt)
 
 == Research Experience
 #chiline()
 
-*University of Illinois Urbana-Champaign*, Supercomputing System AI Lab #h(1fr) Since 2025/08\
+*National Center for Supercomputing Applications*, Supercomputing System AI Lab #h(1fr) 2025/08 -- 2026/05\
 Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
-- *When Topology Matters: Trillion-Parameter LLM Training via
-  Topology-Aligned 3D Parallelism on Emerging AI Chips*
+- *Characterization and Lessons from Scaling Trillion-Parameter LLM Training on AWS Trainium*
   - Provided the first systematic characterization of dense and MoE training on AWS Trainium chips, and analyzed the compute performance, memory footprint, and collective communication behavior across model scales.
   - Implemented a topology-aligned planner to solve the 3D parallel groups placement constraints imposed by Trainium's 2D torus topology, enabling previously unsupported parallel configurations (>50% of the solution space) to run with optimal NIC utilization.
-  - Identified PP-first as the optimal scale-out strategy for MoE training on Trainium. Together with the planner, demonstrated scalable training of up to 1T-parameter models with 2048 chips, achieving up to 3.5× speedup over the baseline.
+  - Identified the optimal scale-out strategy for MoE training on Trainium. Together with the planner, demonstrated scalable training of up to 1T-parameter models with 2K chips, achieving up to 3.2× speedup over the baseline.
+#v(-4pt)
 
 *Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
 -- 2024/12\
@@ -77,6 +98,8 @@ Research Assistant, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
 - *OpenOptics: An Open Research Framework for Optical Data Center Networks* #link("https://github.com/mpi-ncs/openoptics/")[github.com/mpi-ncs/openoptics]
   - OpenOptics is a general framework for realizing different optical data center network architectures in a plug-and-play manner -- you can get started with just \~10 lines of Python.
   - Prototyped the traffic-aware workflow of OpenOptics, and built the corresponding Tofino-based backend. Implemented 4 types of traffic-aware scheduling algorithms in the framework for \<50 lines of Python.
+#v(-4pt)
+
 *ShanghaiTech University*, Wireless and Mobile System Lab #h(1fr) 2023/12 --
 2024/08\
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
@@ -95,50 +118,35 @@ Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
 //     embedded systems by emulating the hardware PTP clock with specific counters.
 //   - Implemented a synchronized sound recording system across 20 devices to
 //     demonstrate the method's capabilities.
+#v(-4pt)
+
 *ShanghaiTech University*, Human-Cyber-Physical System Lab #h(1fr) 2022/07 --
 2023/06\
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 - *Model-Checking-Based Diagnosis Assistance for Cardiac Ablation* #link("https://github.com/Jack0Chan/pyuppaal")[github.com/Jack0Chan/pyuppaal]
   - Worked on pyUPPAAL, a Python toolkit for UPPAAL, providing programmatic access to the model-checking tool and enabling automation of verification tasks.
   - Implemented a model-checking-based diagnosis program for cardiac ablation surgeries using the toolkit, and optimized it to process cardiac signals in real-time.
-
-== Work Experience
-#chiline()
-
-*Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
-HPC System Engineer Intern #h(1fr) Shanghai, China
-- Evaluated and assessed the performance metrics of various distributed storage solutions, including GPFS, DeepSeek's 3FS, GekkoFS and Valkey over RDMA.
-- Implemented file write for Ubiloader, the in-house data loading middleware; delivered up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models under a tight 10-day deadline; deployed to the internal k8s cluster with 1024 H800 GPUs.
-- Prototyped a high-performance, multi-level distributed key-value store named Simm; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than existing solutions compared to ByteDance's Infinistore and Mooncake Store.
-- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; delivered up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
-
-*Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
-System Software Engineer Intern #h(1fr) Shanghai, China
-- Developed a fine-grained probing tool using eBPF and kernel modules for the Linux sandbox to capture and analyze malware during runtime; delivered comparative accuracy to competitors.
-- Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput overall and is deployed to Tencent's internal malware analysis platforms with 50+ nodes.
-// - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
-
-*Deemos Technology* #h(1fr) 2023/01 -- 2023/07\
-Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
-- Developed a full-stack web application for ChatAvatar, a text-to-3D model. Developed interactive frontend and integrated backend to support model generation, user interaction, and result visualization.
-// - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
+#v(-4pt)
 
 == Activities
 #chiline()
 
 *Open Source Contributions*
 - *Member, The Rust Programming Language* #h(1fr) Since 2024/12
-  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 250+ merged commits and reduced 1k+ false positives and negatives in regression tests.
+  - Triaged and fixed issues for Clippy, the Rust linter, including bug fixes and lint improvements. Contributed 450+ merged commits and reduced 1k+ false positives and negatives in regression tests.
+#v(-4pt)
 
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
-  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this Challenge; achieved strong scaling within one CPU node and 200× speedup in one A100.
+  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this Challenge; achieved strong scaling within one CPU node and >200× speedup on one A100.
   - Advised the team on MPI profiling and optimization; reduced communication time by 50%.
+#v(-4pt)
 
 *Student Organizations*
 - *Vice President, Geekpie Association* #h(1fr) 2022/08 -- 2023/07
   - Developed the frontend of Coursebench, a popular course-rating website for ShanghaiTech University.
   - Organized events including Geekpie Games and Geekpie Linux Seminar, with 1k+ students participated.
+#v(-4pt)
 
 // == Projects
 // #chiline()
@@ -183,6 +191,29 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 // - Teaching Assistant, CS100: Computer Programming, ShanghaiTech University #h(1fr) Spring 2023
 // - Teaching Assistant, CS132: Software Engineering, ShanghaiTech University #h(1fr) Spring 2023
 
+== Skills
+#chiline()
+*Working Languages*: Chinese (Native), English (Advanced, TOEFL 112:
+R30/L30/S24/W28)\
+*Programming Languages*: Python, Modern C/C++, Rust, Golang, Typescript, Shell, P4, SQL\
+*Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, LMCache, Megatron-LM, DeepSpeed, UPPAAL\
+*DevOps Technologies*: Docker, Singularity, Kubernetes, Slurm, Gitlab, Postgres, Cloudflare Worker
+#v(-4pt)
+
+== Publications
+#chiline()
+
+- *Hybrid Parallelism in a World of Structured Fabrics:  Efficiently Scaling Trillion-Parameter LLMs on 2K Trainium NeuronCores* \ _*Linshu Yang*, Vinay Patel, George Karypis, Yongseok Koh, Yida Wang, Minjia Zhang_ \ Under Review in *ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP) 2027*
+// - *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) \
+//   _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) \
+//   *Under Review in _IEEE International Symposium on High-Performance Computer Architecture 2025_*
+#v(-4pt)
+
+- *pyUPPAAL: A Python Package for Risk Analysis of CPS* #link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[doi.org/10.1145/3576841.3589611] #h(1fr) \
+  _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) \
+  Published in *ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS) 2023*
+#v(-4pt)
+
 == Awards
 #chiline()
 
@@ -193,13 +224,5 @@ Full-Stack Software Engineer Intern #h(1fr) Shanghai, China\
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Outstanding Student (Top 3%-7%), ShanghaiTech University #h(1fr) 2022/10
 - Level 6 (= Second Class Prize in former NOIP), 1st place in the award group, 2019 CCF CSP-S #h(1fr) 2019/12
-
-== Skills
-#chiline()
-*Working Languages*: Chinese (Native), English (Advanced, TOEFL 112:
-R30/L30/S24/W28)\
-*Programming Languages*: Python, Modern C/C++, Rust, Golang, Typescript, Shell, P4, SQL\
-*Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, LMCache, Megatron-LM, DeepSpeed, UPPAAL\
-*DevOps Technologies*: Docker, Singularity, Kubernetes, Slurm, Gitlab, Postgres, Cloudflare Worker
 
 #last_updated(datetime.today().display("[year]/[month]"))
