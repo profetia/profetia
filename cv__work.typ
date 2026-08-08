@@ -71,7 +71,7 @@ Software Engineer Intern #h(1fr) Shanghai, China
 #v(-4pt)
 
 *National Center for Supercomputing Applications*, Supercomputing System AI Lab #h(1fr) 2025/08 -- 2026/05\
-Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
+Research Intern, Advised by Prof. Minjia Zhang #h(1fr) Champaign, IL, USA
 - Worked on Trainium, an emerging AI accelerator from AWS. Provided the first systematic characterization of dense and MoE training and analyzed the compute performance, memory footprint, and collective communication behavior across model scales.
 - Implemented a topology-aligned planner to solve the 3D parallel groups placement constraints imposed by Trainium's 2D torus topology, enabling previously unsupported parallel configurations (>50% of the solution space) to run with optimal NIC utilization.
 - Identified the optimal scale-out strategy for MoE training on Trainium. Together with the planner, demonstrated scalable training of up to 1T-parameter models with 2K chips, achieving up to 3.2× speedup over the baseline.
