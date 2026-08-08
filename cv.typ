@@ -138,7 +138,7 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
-  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this Challenge; achieved strong scaling within one CPU node and >200× speedup on one A100.
+  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this challenge; achieved strong scaling within one CPU node and >200× speedup on one A100.
   - Advised the team on MPI profiling and optimization; reduced communication time by 50%.
 #v(-4pt)
 
