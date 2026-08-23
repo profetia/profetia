@@ -79,16 +79,16 @@ Research Intern, Advised by Prof. Minjia Zhang #h(1fr) Champaign, IL, USA
 
 *Ubiquant*, HPC System Group #h(1fr) 2025/04 -- 2025/08 \
 Performance Engineer Intern #h(1fr) Shanghai, China
-- Implemented file write for Ubiloader, the in-house data loading middleware; delivered up to 2× faster checkpoint writes and 3× faster checkpoint loading for large models under a tight 10-day deadline; deployed to the internal k8s cluster with 1K H800 GPUs.
+- Repurposed Ubiloader, the in-house data-loading middleware, for large-model checkpoint I/O under a 10-day deadline by adding a write path and integrating it with the training framework; achieved up to 2× faster writes and 3× faster loads, deployed on a 1K-H800 Kubernetes cluster.
 - Evaluated existing distributed storage solutions for KV cache workloads, including DeepSeek’s 3FS, GekkoFS, Valkey over RDMA, ByteDance's Infinistore, and Mooncake Store, identifying limitations in meeting our latency requirements.
-- Prototyped a high-performance, multi-level distributed key-value store named Simm; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than ByteDance’s Infinistore and Mooncake Store.
+- Prototyped a high-performance, multi-level distributed key-value store named Simm in C++; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than ByteDance’s Infinistore and Mooncake Store.
 // - Integrated Simm with vLLM using LMCache as a storage backend for KV cache; achieved up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
 #v(-4pt)
 
 *Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
 -- 2024/12\
 Research Assistant, Advised by Prof. Yiting Xia #h(1fr) Saarbrücken, Germany\
-- Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its Tofino-based backend; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
+- Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its Tofino-based backend in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
 #v(-4pt)
 
 // *Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
@@ -110,7 +110,7 @@ Research Assistant, Advised by Prof. Yiting Xia #h(1fr) Saarbrücken, Germany\
 *HPC Competitions*
 - *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
   - Guided the team on MPI profiling and optimization, reducing communication time by 50%.
-  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this challenge; achieved strong scaling within one CPU node and >200× speedup on one A100.
+  - Individual 3rd place in Coding Challenge, OpenMP Track. Implemented code optimization and GPU offloading for this challenge using C++; achieved strong scaling within one CPU node and >200× speedup on one A100.
 
 #v(-4pt)
 
