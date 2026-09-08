@@ -72,7 +72,7 @@ Software Engineer Intern #h(1fr) Shanghai, China
 
 *National Center for Supercomputing Applications*, Supercomputing System AI Lab #h(1fr) 2025/08 -- 2026/05\
 Research Intern, Advised by Prof. Minjia Zhang #h(1fr) Champaign, IL, USA
-- Analyzed AWS Trainium, an emerging AI accelerator, providing the first systematic characterization of dense and MoE training and analyzed the compute performance, memory footprint, and collective communication behavior across model scales.
+- Analyzed AWS Trainium, an emerging AI accelerator, providing the first systematic characterization of dense and MoE training and analyzing compute performance, memory footprint, and collective communication behavior across model scales.
 - Developed a topology-aligned planner to solve the 3D parallel groups placement constraints imposed by Trainium's 2D torus topology, enabling previously unsupported parallel configurations (>50% of the solution space) to run with optimal NIC utilization.
 - Identified the optimal scale-out strategy for MoE training on Trainium and, together with the planner, demonstrated scalable training of up to 1T-parameter models with 2K chips, achieving up to 3.2× speedup over the baseline.
 #v(-4pt)
@@ -82,7 +82,7 @@ Performance Engineer Intern #h(1fr) Shanghai, China
 - Repurposed Ubiloader, the in-house data-loading middleware, for large-model checkpoint I/O under a 10-day deadline by adding a write path and integrating it with the training framework; achieved up to 2× faster writes and 3× faster loads, deployed on a 1K-H800 Kubernetes cluster.
 - Evaluated existing distributed storage solutions for KV cache workloads, including DeepSeek’s 3FS, GekkoFS, Valkey over RDMA, ByteDance's Infinistore, and Mooncake Store, identifying limitations in meeting our latency requirements.
 - Prototyped a high-performance, multi-level distributed key-value store named Simm in C++; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than ByteDance’s Infinistore and Mooncake Store.
-// - Integrated Simm with vLLM using LMCache as a storage backend for KV cache; achieved up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
+// - Integrated Simm with vLLM using LMCache as a storage backend for KV cache; achieved up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on models up to 70B parameters.
 #v(-4pt)
 
 *Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
@@ -93,8 +93,8 @@ Research Assistant, Advised by Prof. Yiting Xia #h(1fr) Saarbrücken, Germany\
 
 // *Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
 // System Software Engineer Intern #h(1fr) Shanghai, China
-// - Developed a fine-grained probing tool using eBPF and kernel modules for the Linux sandbox to capture and analyze malware during runtime; delivered comparative accuracy to competitors.
-// - Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput overall and is deployed to Tencent's internal malware analysis platforms with 50+ nodes.
+// - Developed a probing tool using eBPF and kernel modules for the Linux sandbox, with kprobe/uprobe custom probe points capturing buffers and memory mappings; combined with downstream algorithms, matched competitor accuracy.
+// - Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput; deployed on Tencent's internal malware analysis platforms with 10+ nodes.
 // - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 // #v(-4pt)
 

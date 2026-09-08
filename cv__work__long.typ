@@ -107,7 +107,7 @@ System Software Engineer Intern #h(1fr) Shanghai, China
 *National Center for Supercomputing Applications*, Supercomputing System AI Lab #h(1fr) 2025/08 -- 2026/05\
 Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
 - *Characterization and Lessons from Scaling Trillion-Parameter LLM Training on AWS Trainium*
-  - Analyzed AWS Trainium, an emerging AI accelerator, providing the first systematic characterization of dense and MoE training and analyzed the compute performance, memory footprint, and collective communication behavior across model scales.
+  - Analyzed AWS Trainium, an emerging AI accelerator, providing the first systematic characterization of dense and MoE training and analyzing compute performance, memory footprint, and collective communication behavior across model scales.
   - Developed a topology-aligned planner to solve the 3D parallel groups placement constraints imposed by Trainium's 2D torus topology, enabling previously unsupported parallel configurations (>50% of the solution space) to run with optimal NIC utilization.
   - Identified the optimal scale-out strategy for MoE training on Trainium and, together with the planner, demonstrated scalable training of up to 1T-parameter models with 2K chips, achieving up to 3.2× speedup over the baseline.
 // #v(-4pt)
@@ -116,8 +116,7 @@ Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
 -- 2024/12\
 Research Assistant, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
 - *OpenOptics: An Open Research Framework for Optical Data Center Networks* #link("https://github.com/mpi-ncs/openoptics/")[github.com/mpi-ncs/openoptics]
-  - OpenOptics is a general framework for realizing different optical data center network architectures in a plug-and-play manner -- you can get started with just \~10 lines of Python.
-  - Prototyped the traffic-aware workflow for OpenOptics and built its Tofino-based backend in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
+  - Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its Tofino-based backend in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
 // #v(-4pt)
 
 // *ShanghaiTech University*, Wireless and Mobile System Lab #h(1fr) 2023/12 --
