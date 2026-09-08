@@ -88,7 +88,7 @@ Performance Engineer Intern #h(1fr) Shanghai, China
 *Max Planck Institute for Informatics*, Network and Cloud System Group #h(1fr) 2024/09
 -- 2024/12\
 Research Assistant, Advised by Prof. Yiting Xia #h(1fr) Saarbrücken, Germany\
-- Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its Tofino-based backend in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
+- Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its backend on Tofino programmable switches in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
 #v(-4pt)
 
 // *Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\

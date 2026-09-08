@@ -116,7 +116,7 @@ Research Intern, Advised by *Prof. Minjia Zhang* #h(1fr) Champaign, IL, USA
 -- 2024/12\
 Research Assistant, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
 - *OpenOptics: An Open Research Framework for Optical Data Center Networks* #link("https://github.com/mpi-ncs/openoptics/")[github.com/mpi-ncs/openoptics]
-  - Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its Tofino-based backend in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
+  - Prototyped the traffic-aware workflow for OpenOptics, a framework for programmable optical data center networks, and built its backend on Tofino programmable switches in P4; implemented 4 types of traffic-aware scheduling algorithms in \<50 lines of Python.
 // #v(-4pt)
 
 // *ShanghaiTech University*, Wireless and Mobile System Lab #h(1fr) 2023/12 --
