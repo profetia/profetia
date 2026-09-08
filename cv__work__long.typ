@@ -65,13 +65,13 @@ HPC System Engineer Intern #h(1fr) Shanghai, China
 - Repurposed Ubiloader, the in-house data-loading middleware, for large-model checkpoint I/O under a 10-day deadline by adding a write path and integrating it with the training framework; achieved up to 2× faster writes and 3× faster loads, deployed on a 1K-H800 Kubernetes cluster.
 - Evaluated existing distributed storage solutions for KV cache workloads, including DeepSeek’s 3FS, GekkoFS, Valkey over RDMA, ByteDance's Infinistore, and Mooncake Store, identifying limitations in meeting our latency requirements.
 - Prototyped a high-performance, multi-level distributed key-value store named Simm in C++; achieved up to 8× lower latency (\<100 μs for 1 MB writes) and 18% higher throughput than ByteDance’s Infinistore and Mooncake Store.
-- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; delivered up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on large models.
+- Integrated Simm with vLLM using LMCache as a storage backend for KV cache; achieved up to 2× lower TTFT and 25% higher output throughput over Infinistore and Mooncake Store on models up to 70B parameters.
 // #v(-4pt)
 
 *Tencent*, Keen Security Lab #h(1fr) 2024/04 -- 2024/07\
 System Software Engineer Intern #h(1fr) Shanghai, China
-- Developed a fine-grained probing tool using eBPF and kernel modules for the Linux sandbox to capture and analyze malware during runtime; delivered comparative accuracy to competitors.
-- Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput overall and is deployed to Tencent's internal malware analysis platforms with 50+ nodes.
+- Developed a probing tool using eBPF and kernel modules for the Linux sandbox, with kprobe/uprobe custom probe points capturing buffers and memory mappings; combined with downstream algorithms, matched competitor accuracy.
+- Refactored existing sandbox software by decoupling and pipelining data collection and analysis, delivering up to 30% higher throughput; deployed on Tencent's internal malware analysis platforms with 10+ nodes.
 // - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 // #v(-4pt)
 
@@ -144,8 +144,8 @@ Research Assistant, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
 2023/06\
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 - *Model-Checking-Based Diagnosis Assistance for Cardiac Ablation* #link("https://github.com/Jack0Chan/pyuppaal")[github.com/Jack0Chan/pyuppaal]
-  - Worked on pyUPPAAL, a Python toolkit for UPPAAL, providing programmatic access to the model-checking tool and enabling automation of verification tasks.
-  - Implemented a model-checking-based diagnosis program for cardiac ablation surgeries using the toolkit, and optimized it to process cardiac signals in real-time.
+  - Co-developed pyUPPAAL, a Python toolkit for UPPAAL, exposing the model checker via a Python API; packaged reusable verification tools and use cases.
+  - Implemented a model-checking-based diagnosis program for cardiac ablation surgeries using the toolkit; optimized it to process cardiac signals in real time.
 // #v(-4pt)
 
 
